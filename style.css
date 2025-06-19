@@ -11,7 +11,7 @@ body {
     background-image: url(Img/fundo.avif);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100%;
+    margin: 15vh 0 55vh;
 }
 .container {
     text-align: center;
@@ -23,7 +23,7 @@ body {
     width: 80%;
     max-width: 600px;
     border: 2px solid #3d3c77;
-    margin-top: 10rem;
+    margin: 0vh 0;
 }
 div.botoes{
     display: flex;
