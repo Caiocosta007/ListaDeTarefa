@@ -7,7 +7,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-image: url(Img/fundo.avif);
     background-repeat: no-repeat;
@@ -24,6 +23,7 @@ body {
     width: 80%;
     max-width: 600px;
     border: 2px solid #3d3c77;
+    margin-top: 10rem;
 }
 div.botoes{
     display: flex;
