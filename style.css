@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Img/fundo.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+.container {
+    text-align: center;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #3d3c77;
+}
+div.botoes{
+    display: flex;
+    justify-content: center;  
+}
+div#divLimparLista{
+    margin-left: 1rem;
+}
+h1 {
+    color: #536bb8;
+    font-family:"Oswald", sans-serif;
+}
+p {
+    color: #536bb8;
+    font-size: 1.1em;
+    font-family: "Noto Sans", sans-serif;
+}
+button {
+    background-color: #7486c0;
+    color: #F4F0EA;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    font-family: "Source Sans 3", sans-serif;
+}
+button:hover {
+    background-color: #5a699b;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+ul li {
+    background-color: #F4F0EA;
+    color: #4e5483;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0px 4px 1px rgba(0, 0, 0, 0.089);
+}
+
+/* Estilo para o campo de entrada */
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #8B7D70;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    font-family: "Noto Sans", sans-serif;
+    color: #4e5483;
+    transition: border-color 0.3s ease;
+}
+input[type="text"]:focus {
+    border-color: #042160;
+    box-shadow: inset 0 2px 4px #0421604d;
+}
+input[type="text"]::placeholder{
+    font-family: "Noto Sans", sans-serif;
+}
+button.remover {
+    position: relative;
+    bottom: 0.1rem;
+    left: 0.5rem;
+    background-color: #A34743;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+button.remover:hover {
+    background-color: #60041A;
+}
+button.editar {
+    position: relative;
+    bottom: 0.1rem;
+    left: 0.5rem;
+    background-color: #7486c0;
+    color: #F4F0EA;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.6em;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+button.editar:hover {
+    background-color: #5a699b;
+}
+
+.botao_lista {
+    background-color: #A34743;
+}
+
+.botao_lista:hover {
+    background-color: #60041A;
+    color: #F4F0EA;
+}
